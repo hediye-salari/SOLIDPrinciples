@@ -1,4 +1,6 @@
-﻿namespace SOLIDPrinciples.SRP
+﻿using System.IO;
+
+namespace SOLIDPrinciples.SRP
 {
     // Responsible for writing files
     public class FileWriter
