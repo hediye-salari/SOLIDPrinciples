@@ -19,6 +19,7 @@ namespace SOLIDPrinciples.OCP
         public override void Execute(string filePath, string content = null)
         {
             string fileContent = _fileReader.Read(filePath);
+
             Console.WriteLine("File content:", fileContent);
         }
     }
